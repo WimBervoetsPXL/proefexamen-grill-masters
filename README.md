@@ -14,7 +14,7 @@ _OPGELET! Het niet volgen van bovenstaande instructies resulteert, per inbreuk, 
 
 Open de bestanden ‘index.html’ en ‘index.css’ in Webstorm. Volg onderstaande stappen en bekijk aandachtig de screenshots om te komen tot het nodige eindresultaat. **_Voor deze opdracht mag je geen tabellen gebruiken, indien je dit toch doet, worden de punten van deze opdracht gehalveerd!_**
 
-![]()
+![](screenshots/desktop.png)
 
 **_Stap 1 – Meta-gegevens en linken_**
 
