@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PXL Grill Masters</title>
+    <link rel="stylesheet" href="workshop.css">
 </head>
 <body>
+<main>
+    <h1>Workshops</h1>
+    <p>Wij delen onze passie graag met jou</p>
+    <form method="post" action="mailto:info@pxlgrillmasters.be" enctype="text/plain">
+        <label for="name">Naam *</label>
+        <input type="text" id="name" name="naam" required>
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+        <label for="date">Datum *</label>
+        <input type="date" id="date" name="datum" required>
 
+        <label for="time">Tijdstip *</label>
+        <fieldset id="time">
+            <input type="radio" id="am" name="tijdstip" value="voormiddag">
+            <label for="am">Voormiddag</label>
+            <input type="radio" id="pm" name="tijdstip" value="namiddag" checked="checked">
+            <label for="pm">Namiddag</label>
+            <input type="radio" id="eve" name="tijdstip" value="avond">
+            <label for="eve">Avond</label>
+        </fieldset>
+
+        <label for="workshop">Workshop</label>
+        <select id="workshop" name="workshop">
+            <option value="bbq">BBQ experience</option>
+            <option value="bier">Bier & BBQ workshop</option>
+            <option value="wisky">Wisky & BBQ workshop</option>
+            <option value="ofyr">Ofyr experience</option>
+            <option value="egg">Big green "eggperience"</option>
+        </select>
+        <label for="persons">Aantal personen *</label>
+        <input type="number" id="persons" name="personen" min="4" max="12" required>
+        <input type="submit" value="Workshop boeken">
+    </form>
+</main>
 </body>
 </html>
